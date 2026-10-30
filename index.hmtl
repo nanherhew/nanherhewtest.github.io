@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Nanher Hew 文 — Furry artist, character designer and digital illustrator.">
+<title>Nanher Hew 文 — Digital Artist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 18+ GATE -->
+<div class="gate" id="ageGate">
+  <div class="gate-card">
+    <img src="arts/age-banner.jpg" alt="" class="gate-banner">
+    <div class="gate-body">
+      <div class="gate-kanji">文</div>
+      <span class="chip chip-ink">18+ ONLY</span>
+      <h2>Mature content ahead.</h2>
+      <p>This portfolio contains mature artwork, nudity and sexual themes. By entering you confirm you are 18 years of age or older.</p>
+      <div class="gate-btns">
+        <button id="ageEnter" class="btn btn-accent">ENTER SITE ↗</button>
+        <button id="ageLeave" class="btn">LEAVE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="nav">
+  <a href="#top" class="logo">nanher<b>hew</b><i>文</i></a>
+  <nav>
+    <a href="#about">About</a><a href="#work">Work</a><a href="#archive">Archive</a>
+    <a href="#comm-status">Status</a><a href="#commissions">Prices</a><a href="#contact">Contact</a>
+  </nav>
+  <span class="chip chip-lime"><i class="pulse"></i>AVAILABLE</span>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-kanji" aria-hidden="true">文</div>
+  <div class="hero-text">
+    <span class="chip">DIGITAL ARTIST ✦ CHARACTER DESIGN</span>
+    <h1>Nanher<br><em>Hew</em><span class="star">✺</span></h1>
+    <p>Furry characters, bara illustration, character design and digital artwork. Big silhouettes, bigger personality.</p>
+    <div class="hero-cta">
+      <a href="#work" class="btn btn-accent">EXPLORE WORK ↘</a>
+      <a href="#commissions" class="btn">COMMISSIONS</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="sticker s1">BARA</div>
+    <div class="sticker s2">FURRY ♥</div>
+    <img src="arts/hero.PNG" alt="Nanher Hew artwork">
+  </div>
+</section>
+
+<div class="marquee"><div class="track">
+  <span>FURRY ✺ BARA ✺ CHARACTER DESIGN ✺ ILLUSTRATION ✺ COMMISSIONS OPEN ✺ </span>
+  <span>FURRY ✺ BARA ✺ CHARACTER DESIGN ✺ ILLUSTRATION ✺ COMMISSIONS OPEN ✺ </span>
+</div></div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-card">
+    <div class="about-kanji">文</div>
+    <small>NH / 26</small>
+  </div>
+  <div>
+    <span class="chip chip-lilac">WHO AM I?</span>
+    <h2>Your confident <mark>himbo artist.</mark></h2>
+    <p>I'm Nanher Hew, a digital artist focused on furry character design, bara illustration and visual storytelling.</p>
+    <p>I like expressive characters, strong silhouettes, unusual designs and artwork that feels personal.</p>
+    <div class="facts">
+      <div><span>BASED</span><b>Mexico</b></div>
+      <div><span>ACTIVE</span><b>2024 →</b></div>
+      <div><span>STATUS</span><b>Independent</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="work" id="work">
+  <div class="sec-head">
+    <h2>Recent <mark>works</mark></h2>
+    <p>A selection of character illustrations, furry artwork and personal pieces.</p>
+  </div>
+  <div class="bento">
+    <figure class="art-card b1"><img src="arts/01.jpg" alt="Nanher Hew artwork"><figcaption><i>01</i>CHARACTER</figcaption></figure>
+    <figure class="art-card b2"><img src="arts/02.jpg" alt="Nanher Hew artwork"><figcaption><i>02</i>FURRY</figcaption></figure>
+    <figure class="art-card b3"><img src="arts/03.jpg" alt="Nanher Hew artwork"><figcaption><i>03</i>BARA</figcaption></figure>
+    <figure class="art-card b4"><img src="arts/04.jpg" alt="Nanher Hew artwork"><figcaption><i>04</i>ILLUSTRATION</figcaption></figure>
+  </div>
+</section>
+
+<!-- ARCHIVE -->
+<section class="archive" id="archive">
+  <div class="sec-head">
+    <h2>The <mark>archive</mark></h2>
+    <p>Browse different parts of my work.</p>
+  </div>
+  <div class="tabs" id="archiveTabs">
+    <button class="tab active" data-tab="all">ALL</button>
+    <button class="tab" data-tab="characters">CHARACTERS</button>
+    <button class="tab" data-tab="bara">BARA</button>
+    <button class="tab" data-tab="commissions">COMMISSIONS</button>
+    <button class="tab" data-tab="wips">WIPS</button>
+  </div>
+  <div class="masonry" id="archiveGrid"></div>
+</section>
+
+<!-- COMM STATUS -->
+<section class="status" id="comm-status">
+  <div class="sec-head">
+    <h2>Comm <mark>status</mark></h2>
+    <p>A live overview of finished commissions and current projects.</p>
+  </div>
+  <div class="legend">
+    <div><i class="dot blue"></i><b>RECEIVED</b><small>Commission just received.</small></div>
+    <div><i class="dot red"></i><b>SKETCH</b><small>Initial sketch in progress.</small></div>
+    <div><i class="dot yellow"></i><b>ADJUSTING</b><small>Making requested changes.</small></div>
+    <div><i class="dot green"></i><b>REFINING</b><small>Final rendering and details.</small></div>
+    <div><i class="dot orange"></i><b>ALMOST DONE</b><small>Final touches before delivery.</small></div>
+  </div>
+  <div class="tabs two">
+    <button class="tab active" data-status-tab="finished">FINISHED COMMS</button>
+    <button class="tab" data-status-tab="progress">IN PROGRESS</button>
+  </div>
+  <div class="spanel active" id="status-finished"><div class="finished-grid" id="commFinishedGrid"></div></div>
+  <div class="spanel" id="status-progress"><div class="progress-list" id="commProgressList"></div></div>
+</section>
+
+<!-- COMMISSIONS -->
+<section class="commissions" id="commissions">
+  <div class="comm-intro">
+    <span class="chip chip-accent">WANT AN ILLUSTRATION?</span>
+    <h2>Let's make something <mark>awesome.</mark></h2>
+    <button class="btn btn-ink" id="openCommission">REQUEST COMMISSION ↘</button>
+  </div>
+  <div class="prices">
+    <div class="price"><div><b>Sketch</b><small>Sketch only</small></div><strong>$15</strong></div>
+    <div class="price"><div><b>Headshot</b><small>Head and shoulders, fully rendered</small></div><strong>$20</strong></div>
+    <div class="price"><div><b>Bust</b><small>Upper body, fully rendered</small></div><strong>$25</strong></div>
+    <div class="price"><div><b>Half body</b><small>Waist-up, fully rendered</small></div><strong>$35</strong></div>
+    <div class="price hot"><div><b>Full body</b><small>Full character, fully rendered</small></div><strong>$45</strong></div>
+    <div class="extras">
+      <span class="chip chip-ink">ADD-ONS / EXTRAS</span>
+      <p>Extra character <b>+$25</b></p>
+      <p>Complex background <b>+$15</b></p>
+      <p>Commercial use <b>+50%</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-bg" aria-hidden="true">HELLO</div>
+  <span class="chip chip-lime">HAVE A PROJECT IN MIND?</span>
+  <h2>Say <em>hello.</em></h2>
+  <p>For commissions, collaborations or general inquiries, get in touch.</p>
+  <a href="https://discord.gg/bzENFbeE" class="btn btn-accent big">@NanherHew on Discord ↗</a>
+  <div class="socials">
+    <a href="https://www.instagram.com/nanherhew/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
+    <a href="https://x.com/NanherHew" target="_blank" rel="noopener">TWITTER / X ↗</a>
+    <a href="https://bsky.app/profile/nanherhew.bsky.social" target="_blank" rel="noopener">BLUESKY ↗</a>
+    <a href="https://ko-fi.com/nanherhew" target="_blank" rel="noopener">KO-FI ↗</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>NANHER HEW 文</span><span>DIGITAL ART / 2024 – 2026</span><a href="#top">↑ BACK TO TOP</a>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox"><button class="x" id="lightboxClose">×</button><div id="lightboxContent"></div></div>
+
+<!-- COMMISSION MODAL -->
+<div class="modal" id="commissionModal">
+  <div class="modal-bg" data-close></div>
+  <div class="panel">
+    <button class="x" id="closeCommission">×</button>
+    <span class="chip chip-accent">COMMISSION SYSTEM / 001</span>
+    <h2>Request <mark>commission.</mark></h2>
+    <p class="modal-intro">Tell me a little about what you'd like me to create.</p>
+
+    <form id="commissionForm">
+      <div class="field"><label for="commissionName">NAME / USERNAME</label>
+        <input type="text" id="commissionName" name="name" placeholder="Your name or username" required></div>
+
+      <div class="field"><label>CONTACT METHOD</label>
+        <div class="methods">
+          <label><input type="radio" name="contactMethod" value="Discord" required><span>DISCORD</span></label>
+          <label><input type="radio" name="contactMethod" value="X"><span>X</span></label>
+          <label><input type="radio" name="contactMethod" value="Instagram"><span>INSTAGRAM</span></label>
+          <label><input type="radio" name="contactMethod" value="Reddit"><span>REDDIT</span></label>
+          <label><input type="radio" name="contactMethod" value="Bluesky"><span>BLUESKY</span></label>
+        </div></div>
+
+      <div class="field"><label for="commissionContact">USERNAME / @</label>
+        <input type="text" id="commissionContact" name="contact" placeholder="@yourusername" required></div>
+
+      <div class="field"><label for="commissionEmail">EMAIL</label>
+        <input type="email" id="commissionEmail" name="email" placeholder="you@example.com" required></div>
+
+      <div class="field"><label for="commissionType">COMMISSION TYPE</label>
+        <select id="commissionType" name="type" required>
+          <option value="" disabled selected>Select a type</option>
+          <option value="Sketch">Sketch — $15</option>
+          <option value="Headshot">Headshot — $20</option>
+          <option value="Bust">Bust — $25</option>
+          <option value="Half Body">Half Body — $35</option>
+          <option value="Full Body">Full Body — $45</option>
+        </select></div>
+
+      <div class="field"><label for="commissionDescription">DESCRIPTION</label>
+        <textarea id="commissionDescription" name="description" rows="5" placeholder="Tell me about the character, pose, expression, idea, etc." required></textarea></div>
+
+      <div class="field"><label for="commissionReferences">REFERENCES / LINKS</label>
+        <input type="text" id="commissionReferences" name="references" placeholder="Links to references, character sheets, etc."></div>
+
+      <label class="terms-check">
+        <input type="checkbox" id="commissionTerms" name="terms" required>
+        <span class="box"></span>
+        <span>I AGREE TO THE <button type="button" class="link" id="openTerms">COMMISSION TERMS ↗</button></span>
+      </label>
+
+      <button type="submit" class="btn btn-accent wide" id="commissionSubmit" disabled>SEND REQUEST ↗</button>
+    </form>
+
+    <div class="success" id="commissionSuccess">
+      <div class="check">✓</div>
+      <h3>Thank <mark>you.</mark></h3>
+      <p>Your commission request has been received. I'll get back to you as soon as possible.</p>
+      <button class="btn" id="successClose">CLOSE</button>
+    </div>
+  </div>
+</div>
+
+<!-- TERMS MODAL -->
+<div class="modal" id="termsModal">
+  <div class="modal-bg" data-close></div>
+  <div class="panel">
+    <button class="x" id="closeTerms" type="button">×</button>
+    <div class="terms-top">
+      <span class="chip chip-ink">COMMISSION SYSTEM / TERMS</span>
+      <button class="btn small" id="translateTerms" type="button">TRANSLATE / ES</button>
+    </div>
+    <h2 id="termsTitle">Commission <mark>terms.</mark></h2>
+    <div id="termsBody"></div>
+    <button class="btn wide" id="termsDone" type="button">CLOSE TERMS ×</button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body>
+</html>
